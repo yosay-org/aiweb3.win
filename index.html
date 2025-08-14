@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aiweb3.win - AI与Web3门户</title>
+    <!-- 引入 Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- 头部和导航栏 -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <!-- 网站 Logo -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-6.75-3zm3.033-5l2.458-2.458A5.998 5.998 0 0012 5.597V4h2a2 2 0 012 2v2a2 2 0 01-2 2h-2V9.597a5.998 5.998 0 00-.775 2.403zM21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <h1 class="text-2xl font-bold text-gray-900">aiweb3.win</h1>
+            </div>
+            <nav class="mt-4 sm:mt-0">
+                <a href="#news" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">新闻与洞察</a>
+                <a href="#tools" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">工具与资源</a>
+                <a href="#community" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-indigo-600 transition-colors">社区与学习</a>
+                <a href="#" class="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 transition-colors">
+                    开始探索
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主视觉区 -->
+    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight">连接智能与去中心化的世界</h2>
+            <p class="mt-4 text-lg sm:text-xl font-light">一站式探索AI与Web3的最新动态、工具与机会。</p>
+        </div>
+    </div>
+
+    <!-- 新闻与洞察模块 -->
+    <main class="container mx-auto px-4 py-12">
+        <section id="news" class="mb-12">
+            <h3 class="text-3xl font-bold text-gray-900 border-l-4 border-indigo-600 pl-4 mb-8">新闻与洞察</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 新闻卡片 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 transition-transform transform hover:scale-105 duration-300">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">AI驱动的智能合约审计新趋势</h4>
+                    <p class="text-gray-600 text-sm">利用机器学习技术自动识别智能合约中的潜在漏洞，提高安全性。</p>
+                </div>
+                <!-- 新闻卡片 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 transition-transform transform hover:scale-105 duration-300">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">Web3游戏与AI角色的结合</h4>
+                    <p class="text-gray-600 text-sm">分析新兴的Web3游戏，探讨AI如何为游戏角色赋予更强的智能和互动性。</p>
+                </div>
+                <!-- 新闻卡片 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 transition-transform transform hover:scale-105 duration-300">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">去中心化身份（DID）的最新进展</h4>
+                    <p class="text-gray-600 text-sm">深度解读DID技术，以及它如何与AI个性化服务相结合，保护用户隐私。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 工具与资源模块 -->
+        <section id="tools" class="mb-12">
+            <h3 class="text-3xl font-bold text-gray-900 border-l-4 border-indigo-600 pl-4 mb-8">工具与资源</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 工具卡片 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 transition-transform transform hover:scale-105 duration-300">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">智能合约审计工具</h4>
+                    <p class="text-gray-600 text-sm">一键上传合约代码，AI自动进行安全分析，生成详细报告。</p>
+                </div>
+                <!-- 工具卡片 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 transition-transform transform hover:scale-105 duration-300">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">链上数据分析仪表盘</h4>
+                    <p class="text-gray-600 text-sm">实时跟踪DeFi和NFT市场，利用AI预测市场走势。</p>
+                </div>
+                <!-- 工具卡片 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 transition-transform transform hover:scale-105 duration-300">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">AI项目推荐系统</h4>
+                    <p class="text-gray-600 text-sm">根据你的兴趣和投资偏好，为你推荐高质量的AI和Web3项目。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 社区与学习模块 -->
+        <section id="community">
+            <h3 class="text-3xl font-bold text-gray-900 border-l-4 border-indigo-600 pl-4 mb-8">社区与学习</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 社区卡片 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 transition-transform transform hover:scale-105 duration-300">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">开发者论坛</h4>
+                    <p class="text-gray-600 text-sm">与全球开发者交流技术经验，共同解决项目难题。</p>
+                </div>
+                <!-- 社区卡片 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 transition-transform transform hover:scale-105 duration-300">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">Web3入门教程</h4>
+                    <p class="text-gray-600 text-sm">从零开始，学习区块链、智能合约、去中心化应用的开发。</p>
+                </div>
+                <!-- 社区卡片 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-6 transition-transform transform hover:scale-105 duration-300">
+                    <h4 class="text-xl font-semibold text-gray-900 mb-2">线上研讨会（Webinar）</h4>
+                    <p class="text-gray-600 text-sm">参与行业领袖的分享会，获取一手行业洞察。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部信息 -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm">&copy; 2025 aiweb3.win. 保留所有权利。</p>
+        </div>
+    </footer>
+</body>
+</html>
